@@ -1,0 +1,140 @@
+/* SentimentAnalysisUI.css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5fafa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.icon {
+  color: #a0a0a0;
+  font-size: 20px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.filters button {
+  background: none;
+  border: none;
+  color: #8c8c8c;
+  font-size: 16px;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.filters .active {
+  color: #1ebaaa;
+  border-bottom: 2px solid #1ebaaa;
+}
+
+.card {
+  background: #eaf8f7;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-icon {
+  color: #1ebaaa;
+  font-size: 22px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.description {
+  color: #666;
+  font-size: 14px;
+  margin: 5px 0 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.view-analysis,
+.compare-prices {
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.view-analysis {
+  background: #1ebaaa;
+}
+
+.compare-prices {
+  background: #1ea7f5;
+}
+
+.sentiment {
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.sentiment-text {
+  font-size: 13px;
+  color: #555;
+}
+
+.trend-switch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.trend-text {
+  color: #666;
+  font-size: 14px;
+}
+
+.content {
+  flex: 1;
+  margin-left: 200px; /* Same as the navbar width */
+  padding: 20px;
+  /* Other styling properties */
+}
