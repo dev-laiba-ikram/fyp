@@ -1,0 +1,61 @@
+/* Sidebar container */
+.vertical-navbar {
+  width: 70px;
+  transition: width 0.3s ease;
+  height: 100vh;
+  position: fixed;
+  background-color: #ffffff;
+  border-right: 1px solid #eee;
+  display: flex;
+  top: 0;
+}
+
+.vertical-navbar.hover {
+  width: 160px;
+}
+
+/* List of menu items */
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-item {
+  margin: 10px 10px;
+}
+
+.navbar-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  padding: 14px;
+  transition: background-color 0.2s;
+}
+
+.navbar-icon {
+  font-size: 22px;
+  color: #1ebaaa;
+  margin-right: 20px;
+}
+
+/* Text on hover */
+.navbar-text {
+  font-weight: bold;
+  color: #1ebaaa;
+}
+
+/* Active link styles */
+
+.navbar-link.active .navbar-icon,
+.navbar-link.active .navbar-text {
+  color: #1ebaaa;
+}
+
+/* Hover effect */
+.navbar-link:hover {
+  background-color: rgba(30, 186, 170, 0.1);
+  color: #1ebaaa;
+  border-left: 4px solid #1ebaaa;
+}

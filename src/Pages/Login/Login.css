@@ -1,0 +1,100 @@
+.login-container {
+  display: flex;
+  min-height: 80vh;
+  font-family: sans-serif;
+  width: 70%; /* Set to half of parent width */
+  border-radius: 12px;
+  overflow: hidden;
+  height: 80%;
+}
+
+.login-left,
+.login-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.login-left {
+  background-color: #fff;
+  flex: 2;
+}
+
+.login-right {
+  background-color: #2c9a89;
+  color: white;
+  text-align: center;
+  flex: 1;
+}
+
+.login-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-text {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.social-button {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-input {
+  width: 100%;
+  max-width: 350px;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 6px;
+}
+.login-forgot {
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  background-color: #2c9a89;
+  color: white;
+  border: none;
+  padding: 16px 80px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 24px;
+}
+
+.login-signup {
+  background-color: white;
+  color: #2c9a89;
+  border: none;
+  padding: 14px 60px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 24px;
+  margin-top: 20px;
+}
