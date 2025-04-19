@@ -7,19 +7,17 @@ import Home from "./Pages/Home/Home.js";
 import ProductCard from "./Pages/Product/productCard.js";
 import AuthPage from "./Pages/Auth/AuthPage.js";
 import SignUp from "./Pages/Signup/SignUp";
-import Profile from "./Pages/Profile/Profile.js";
+import Analytics from "./Pages/Analytics/Analytics.jsx";
 
 function App() {
   return (
     <Router>
       <div className="app">
-        {/* <AuthPage /> */}
-
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<ProductCard />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/analytics" element={<Analytics />} />
         </Routes>
       </div>
     </Router>

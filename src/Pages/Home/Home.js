@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Home.css";
 import AuthPage from "../Auth/AuthPage";
 import { FiSearch, FiUser } from "react-icons/fi";
+import { FiThumbsUp, FiThumbsDown } from "react-icons/fi";
 import Login from "../Login/Login";
 import SignUp from "../Signup/SignUp";
 
@@ -39,31 +40,20 @@ const Home = () => {
         </div>
       )}
 
-      {/* <div className="hero-section">
+      <div className="hero-section">
         <div className="hero-content">
           <h1>Smart Review Analyzer</h1>
-          <p class="hero-subtitle">Uncover real customer sentiments across top retailers</p>
-          <div className="hero-stats">
-            <div className="stat-item">
-              <span className="stat-number">10,000+</span>
-              <span className="stat-label">Products Analyzed</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-number">1M+</span>
-              <span className="stat-label">Reviews Processed</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-number">95%</span>
-              <span className="stat-label">Accuracy</span>
-            </div>
-          </div>
-        </div>
-        <div className="hero-image">
-          <div className="mockup-dashboard"></div>
+          <p className="hero-subtitle">
+            Transform raw reviews into smart decisions
+          </p>
+          <button className="cta-button">Get Started</button>
         </div>
       </div>
-       */}
+
       <div className="search-container">
+        <h2 className="search-heading">
+          🔎 Instantly discover what people think about your favorite products
+        </h2>
         <div className="search-wrapper">
           <FiSearch className="search-icon" />
           <input
@@ -77,20 +67,27 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="features-section">
-        <div className="feature-card">
-          <h3>Sentiment Analysis</h3>
-          <p>Understand customer feelings about products</p>
+      {/* Trending Products Section */}
+      <div className="trending-section">
+        <h2 className="section-title">🔥 Trending Products</h2>
+        <div className="trending-cards">
+          <div className="product-card">
+            <img src="../../Img/iphone.jpg" alt="Product" />
+            <h4>iPhone 15 Pro</h4>
+            <p>5,000+ reviews analyzed</p>
+          </div>
+          <div className="product-card">
+            <img src="https://via.placeholder.com/150" alt="Product" />
+            <h4>Samsung Galaxy S24</h4>
+            <p>4,200+ reviews analyzed</p>
+          </div>
+          <div className="product-card">
+            <img src="https://via.placeholder.com/150" alt="Product" />
+            <h4>Dell XPS 13</h4>
+            <p>3,800+ reviews analyzed</p>
+          </div>
         </div>
-        <div className="feature-card">
-          <h3>Multi-Source</h3>
-          <p>Compare across Amazon, Best Buy, Walmart</p>
-        </div>
-        <div className="feature-card">
-          <h3>Visual Insights</h3>
-          <p>Clear graphical representation of data</p>
-        </div>
-      </div> */}
+      </div>
     </div>
   );
 };

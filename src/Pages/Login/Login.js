@@ -7,7 +7,7 @@ const Login = ({ toggleMode }) => {
   return (
     <div className="login-container">
       <div className="login-left">
-        <h2 className="login-title">Sign in to Diprella</h2>
+        <h2 className="login-title">Sign in to ReviewHub</h2>
 
         <div className="social-icons">
           <button className="social-button">

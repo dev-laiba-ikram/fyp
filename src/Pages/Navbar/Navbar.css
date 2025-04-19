@@ -8,6 +8,7 @@
   border-right: 1px solid #eee;
   display: flex;
   top: 0;
+  z-index: 1000;
 }
 
 .vertical-navbar.hover {
