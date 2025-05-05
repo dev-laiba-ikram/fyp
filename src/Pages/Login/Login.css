@@ -6,6 +6,7 @@
   border-radius: 12px;
   overflow: hidden;
   height: 80%;
+  position: relative;
 }
 
 .login-left,
@@ -29,6 +30,8 @@
   color: white;
   text-align: center;
   flex: 1;
+  position: relative; /* This makes the close button relative to this container */
+  padding: 20px;
 }
 
 .login-title {
@@ -70,6 +73,7 @@
   outline: none;
   border-radius: 6px;
 }
+
 .login-forgot {
   font-size: 12px;
   color: #888;
@@ -97,4 +101,27 @@
   cursor: pointer;
   border-radius: 24px;
   margin-top: 20px;
+}
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  /* color: white; */
+  color: red;
+  z-index: 10;
+  transition: color 0.3s;
+}
+
+.close-icon:hover {
+  color: #1ebaaa;
+}
+
+/* Custom loader color */
+.custom-progress-bar {
+  background-color: #1ebaaa !important; /* Set the desired loader color */
+}
+
+.custom-progress-bar-error {
+  background-color: red !important; /* Set the custom color for the loading spinner */
 }

@@ -12,24 +12,19 @@
 }
 
 .form-wrapper {
-  position: relative;
-
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: relative; 
 }
 
-/* .show-login .login-container {
-  transform: translateX(0);
-}
-.show-login .signup-page {
-  transform: translateX(100%);
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #333;
+  z-index: 10;
+  transition: color 0.3s;
 }
 
-.show-signup .login-container {
-  transform: translateX(-100%);
+.close-icon:hover {
+  color: #1ebaaa;
 }
-.show-signup .signup-page {
-  transform: translateX(0);
-} */

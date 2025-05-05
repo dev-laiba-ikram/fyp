@@ -8,6 +8,7 @@
   font-family: sans-serif;
   border-radius: 12px;
   overflow: hidden;
+  position: relative;
 }
 
 .left-section {
@@ -118,4 +119,25 @@
   cursor: pointer;
   /* margin-top: 20px; */
   border-radius: 24px;
+}
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #333;
+  z-index: 10;
+  transition: color 0.3s;
+}
+
+.close-icon:hover {
+  color: #1ebaaa;
+}
+
+.custom-progress-bar {
+  background-color: #1ebaaa !important; /* Set the custom color for the loading spinner */
+}
+
+.custom-progress-bar-error {
+  background-color: red !important; /* Set the custom color for the loading spinner */
 }

@@ -17,10 +17,11 @@ const Navbar = () => {
 
   const menuItems = [
     { text: "Home", icon: <FaHome />, path: "/" },
-    { text: "Products", icon: <SiProducthunt />, path: "/products" },
+    // { text: "Products", icon: <SiProducthunt />, path: "/products" },
     { text: "Analytics", icon: <SiGoogleanalytics />, path: "/analytics" },
     { text: "Settings", icon: <SiOnlyfans />, path: "/settings" },
     { text: "About", icon: <SiAboutdotme />, path: "/about" },
+    { text: "Dashboard", icon: <SiAboutdotme />, path: "/dashboard" },
   ];
 
   return (
